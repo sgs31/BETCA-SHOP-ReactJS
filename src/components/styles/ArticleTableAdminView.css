@@ -1,0 +1,45 @@
+.table{
+    position: static;
+    table-layout: fixed;
+    width: 70%;
+    height: 800px;
+    overflow: auto;
+    
+}
+
+.table td{
+    padding-top: 40px;
+}
+
+.thead-dark{
+    background-color: #9B5DE5;
+    color:white;
+    
+    align-items: center;
+    
+}
+
+.thead-dark th{
+    padding-bottom: 7px;
+}
+
+.thead-dark button{
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #F15BB5;
+    font-size: 15px;
+    padding: 5px;
+    margin-top: 7px;
+    
+}
+
+.table img{
+    width: 20px;
+    margin-right: 15px;
+}
+
+.edit-row{
+    display: flex;
+    justify-content: flex-end;
+}

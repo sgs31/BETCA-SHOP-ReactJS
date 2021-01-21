@@ -1,0 +1,18 @@
+.App {
+  background-color: white;
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+
+}
+
+.principal-content{
+  margin:50px 250px 0 250px;
+}
+
+button:focus{
+  outline: none;
+}
+
+
+
+

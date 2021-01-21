@@ -1,0 +1,16 @@
+.table-article-user{
+    
+    
+    max-width: 70%;
+    max-height: 800px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow:auto;
+    
+}
+
+.article-user{
+    margin: 10px;
+    
+}

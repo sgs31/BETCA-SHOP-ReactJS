@@ -1,0 +1,23 @@
+.footer{
+    max-width: 100%;
+    height: 250px;
+    background-image: url('../../assets/footer2.png');
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    
+}
+
+.contact-footer{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.social-media{
+    display: flex;
+    flex-direction: row;
+    
+    
+}

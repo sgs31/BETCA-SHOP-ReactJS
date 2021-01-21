@@ -1,0 +1,58 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    text-align: justify;
+}
+
+.main-container{
+    display: flex;
+    
+    
+}
+
+.h1-container{
+    
+    letter-spacing: 10px;
+    align-self: center;
+
+}
+
+.main-container img{
+    width: 300px;
+}
+
+.main-container2{
+    display: flex;
+    padding-top: 30px;
+    
+}
+
+.main-container img{
+    width: 400px;
+}
+
+.txt-btn{
+
+    display: flex;
+    flex-direction: column;
+    line-height: 50px;
+}
+
+.btn-registrar{
+    align-self: center;
+    
+    
+}
+
+.btn-registrar button{
+    background: #F15BB5;
+    border-radius: 5px;
+    color: white;
+    border: 0.5px solid #F15BB5;
+    padding: 5px;
+    margin: 5px;
+    margin-right: 10px;
+    font-weight: 500;
+    font-size: 20px;
+}

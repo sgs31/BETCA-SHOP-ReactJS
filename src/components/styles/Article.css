@@ -1,0 +1,60 @@
+.card{
+    width: 200px;
+    height: auto;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.card-header{
+    background-color: white;
+}
+
+.card-header img{
+   height: 125px;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.card-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: white;
+}
+
+.card-footer span{
+    font-size: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+
+.btn-cant{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: #FEE440;
+    border: 0.5px solid yellow;
+    
+}
+
+.cant-handler{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.btn-add{
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #F15BB5;
+    font-size: 15px;
+    padding: 5px;
+    margin-top: 7px;
+    
+}
+

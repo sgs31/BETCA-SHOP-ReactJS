@@ -1,0 +1,70 @@
+.card-login{
+    width: 500px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.25);
+}
+
+.card-login{
+    background-color: rgb(253, 244, 244);
+    background-image: url('../../assets/drops.png');
+    background-repeat: no-repeat;
+}
+
+.card-login a{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+}
+
+.card-login img{
+    width: 15px;
+}
+
+.card-login input{
+    width: 70%;
+     
+}
+
+.card-login input:focus{
+    width: 70%;
+    
+    border: 2px solid #00BBF9;
+    outline: #00BBF9;
+    outline-offset: 4px;
+    height: 50px;
+    transition: 500ms;
+    
+}
+
+.access{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.access a{
+    text-decoration: none;
+    color: #00BBF9;
+}
+
+.access a:hover{
+    text-decoration: none;
+    color: #0082ad;
+}
+
+.access button{
+    border-style: none;
+    border-radius: 5px;
+    background-color: #00BBF9;
+    color: white;
+    padding: 5px 10px 5px 10px;
+}
+
+.access button:hover{
+    
+    background-color: #0082ad;
+    
+}
