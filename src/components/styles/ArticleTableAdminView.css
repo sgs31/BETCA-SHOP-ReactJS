@@ -4,7 +4,6 @@
     width: 70%;
     height: 800px;
     overflow: auto;
-    
 }
 
 .table td{
@@ -14,9 +13,7 @@
 .thead-dark{
     background-color: #9B5DE5;
     color:white;
-    
     align-items: center;
-    
 }
 
 .thead-dark th{
@@ -30,8 +27,7 @@
     background-color: #F15BB5;
     font-size: 15px;
     padding: 5px;
-    margin-top: 7px;
-    
+    margin-top: 7px;   
 }
 
 .table img{

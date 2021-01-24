@@ -3,9 +3,9 @@ import './styles/NavArticles.css'
 import collapse from '../assets/collapse.svg'
 
 export default class NavArticles extends Component {
+    
     constructor(props) {
         super(props);
-
     }
 
     render() {
@@ -24,7 +24,6 @@ export default class NavArticles extends Component {
                     <li><a href="">Tech</a></li>
                     <li><a href="">Verdulería</a></li>
                 </ul>
-                
                 <form className="stock-radio">
                     <div>
                         <input type="radio" id="stock" name="gender" value="stock" />

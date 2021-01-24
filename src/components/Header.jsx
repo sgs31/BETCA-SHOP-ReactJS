@@ -1,17 +1,15 @@
 import React, {Component} from 'react';
-
 import './styles/Header.css';
 import dp from '../assets/dp.png';
 
 export default class Nav extends Component {
-    constructor(){
-        super();
-
+    
+    constructor(props){
+        super(props);
     }
 
     render(){
         return (
-            
             <div className="nav">
                 <div className="logo">
                     <img src={dp} alt=""/>
@@ -27,13 +25,8 @@ export default class Nav extends Component {
                         <a href="login" onClick={this.openLogIn}>Iniciar sesión</a>
                         <a href="#">¿Olvidaste tu contraseña?</a>
                     </div>
-                </div>
-                
-                
-            </div>
-            
-            
+                </div>                
+            </div>        
           );
     }
-    
 }

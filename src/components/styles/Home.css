@@ -7,15 +7,11 @@
 
 .main-container{
     display: flex;
-    
-    
 }
 
 .h1-container{
-    
     letter-spacing: 10px;
     align-self: center;
-
 }
 
 .main-container img{
@@ -25,7 +21,6 @@
 .main-container2{
     display: flex;
     padding-top: 30px;
-    
 }
 
 .main-container img{
@@ -33,16 +28,13 @@
 }
 
 .txt-btn{
-
     display: flex;
     flex-direction: column;
     line-height: 50px;
 }
 
 .btn-registrar{
-    align-self: center;
-    
-    
+    align-self: center;   
 }
 
 .btn-registrar button{

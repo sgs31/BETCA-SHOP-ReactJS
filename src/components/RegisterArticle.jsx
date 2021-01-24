@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import './styles/RegisterArticle.css';
 
 export default class RegisterArticle extends Component {
+    
     constructor(props) {
         super(props);
     }

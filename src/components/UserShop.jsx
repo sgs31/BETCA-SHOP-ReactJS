@@ -4,6 +4,7 @@ import ArticleTableUserView from './ArticleTableUserView';
 import './styles/ShopUser.css';
 
 export default class UserShop extends Component{
+    
     constructor(props){
         super(props)
     }

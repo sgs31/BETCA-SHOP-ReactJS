@@ -4,7 +4,6 @@ import linkedin from '../assets/linkedin.svg';
 import github from '../assets/github.svg';
 
 export default function Footer() {
-
     return (
         <div className="footer">
             <div className="contact-footer">
@@ -24,9 +23,6 @@ export default function Footer() {
                     <a href=""><img src={github} alt=""/></a>
                 </div>
             </div>
-        </div>
-            
-       
+        </div> 
     );
-
 }
