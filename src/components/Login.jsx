@@ -1,35 +1,47 @@
-import React, { Component } from 'react'
+import React, { Component, useState } from 'react'
+import {Modal} from 'reactstrap';
 import close from '../assets/close.svg'
 import './styles/Login.css';
 
-export default class Login extends Component {
-    constructor(props) {
-        super(props)
+const Login = () => {
 
-    }
-    render() {
-        return (
+    const [modal, setModal] = useState(false);
+    const toggle = () => setModal(!modal);
 
-            <div className="card-ubication">
-                <div className="card-login">
-                    <a href=""><img src={close} alt=""/></a>
-                    <div>
-                        <input type="text" id="email-input" placeholder="Email" />
-                    </div>
-                    <div>
 
-                        <input type="password" id="pass-input" placeholder="Password" />
-                    </div>
-                    <div className="access">
-                        <a href="#">¿Olvidaste tu contraseña?</a>
-                        <button>Entrar</button>
-                    </div>
+    return (
 
+        <div>
+            <a href="" onClick={toggle}>Iniciar sesión</a>
+            <Modal isOpen={modal} toggle={toggle}>
+                
+                    <div className="card-login">
+                        <a href="" onClick={toggle}><img src={close} alt="" /></a>
+                        <div>
+                            <input type="text" id="email-input" placeholder="Email" />
+                        </div>
+                        <div>
+
+                            <input type="password" id="pass-input" placeholder="Password" />
+                        </div>
+                        <div className="access">
+                            <a href="#">¿Olvidaste tu contraseña?</a>
+                            <button>Entrar</button>
+                        </div>
+
+                    
                 </div>
-            </div>
+            </Modal>
+        </div>
 
 
 
-        );
-    }
+
+
+
+
+    );
+
 }
+
+export default Login;

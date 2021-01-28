@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 
 import './styles/Header.css';
 import dp from '../assets/dp.png';
+import Login from './Login';
 
 export default class Nav extends Component {
     constructor(){
@@ -11,7 +12,6 @@ export default class Nav extends Component {
 
     render(){
         return (
-            
             <div className="nav">
                 <div className="logo">
                     <img src={dp} alt=""/>
@@ -24,7 +24,7 @@ export default class Nav extends Component {
                         <button>Registrarme</button>
                     </div>
                     <div className="session">
-                        <a href="login" onClick={this.openLogIn}>Iniciar sesión</a>
+                        <Login modal={false}></Login>
                         <a href="#">¿Olvidaste tu contraseña?</a>
                     </div>
                 </div>

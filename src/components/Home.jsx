@@ -1,8 +1,8 @@
 import React from 'react';
-
 import mob from '../assets/mob.svg';
 import './styles/Home.css';
 import com from '../assets/com.svg';
+
 
 export default function Home(){
     
