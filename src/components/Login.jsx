@@ -1,18 +1,18 @@
-import React, { Component } from 'react'
+import React, { Component, useState } from 'react'
+import { Modal } from 'reactstrap';
 import close from '../assets/close.svg'
 import './styles/Login.css';
 
-export default class Login extends Component {
-    
-    constructor(props) {
-        super(props)
-    }
+const Login = () => {
+    const [modal, setModal] = useState(false);
+    const toggle = () => setModal(!modal);
 
-    render() {
-        return (
-            <div className="card-ubication">
+    return (
+        <div>
+            <a href="" onClick={toggle}>Iniciar sesión</a>
+            <Modal isOpen={modal} toggle={toggle}>
                 <div className="card-login">
-                    <a href=""><img src={close} alt=""/></a>
+                    <a href="" onClick={toggle}><img src={close} alt="" /></a>
                     <div>
                         <input type="text" id="email-input" placeholder="Email" />
                     </div>
@@ -23,9 +23,11 @@ export default class Login extends Component {
                         <a href="#">¿Olvidaste tu contraseña?</a>
                         <button>Entrar</button>
                     </div>
-
                 </div>
-            </div>
-        );
-    }
+            </Modal>
+        </div>
+    );
 }
+
+export default Login;
+
