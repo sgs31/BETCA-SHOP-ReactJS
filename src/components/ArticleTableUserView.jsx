@@ -3,13 +3,13 @@ import Article from './Article.jsx'
 import './styles/ArticleTableUserView.css'
 
 export default class ArticleTableUserView extends Component{
-    constructor(props){
+    
+  constructor(props){
         super(props);
     
     }
 
     render(){
-
         let articulos = [{
             img: "https://www.mamalucchetti.com.ar/wp-content/uploads/2020/04/BUCATTINI-HERO.png",
             marca:'Luchetti',

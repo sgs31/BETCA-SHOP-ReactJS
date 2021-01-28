@@ -4,6 +4,7 @@ import ArticleAdminView from './ArticleTableAdminView';
 import './styles/AdminShop.css'
 
 export default class AdminShop extends Component{
+    
     constructor(){
         super();
     }
@@ -16,5 +17,4 @@ export default class AdminShop extends Component{
             </div>
         );
     }
-
 }

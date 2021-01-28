@@ -1,13 +1,11 @@
 import React, {Component} from 'react';
-
 import './styles/Header.css';
 import dp from '../assets/dp.png';
 import Login from './Login';
 
 export default class Nav extends Component {
-    constructor(){
-        super();
-
+        constructor(props){
+        super(props);
     }
 
     render(){
@@ -27,13 +25,8 @@ export default class Nav extends Component {
                         <Login modal={false}></Login>
                         <a href="#">¿Olvidaste tu contraseña?</a>
                     </div>
-                </div>
-                
-                
-            </div>
-            
-            
+                </div>                
+            </div>        
           );
     }
-    
 }

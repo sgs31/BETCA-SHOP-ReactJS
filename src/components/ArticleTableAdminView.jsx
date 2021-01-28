@@ -3,8 +3,8 @@ import './styles/ArticleTableAdminView.css'
 import close from '../assets/close.svg';
 import edit from '../assets/edit.svg';
 
-
 export default class ArticleTableAdminView extends Component {
+    
     constructor(props) {
         super(props)
     }
