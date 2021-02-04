@@ -9,7 +9,8 @@
 }
 
 .card-header img{
-   height: 125px;
+   max-height: 125px;
+   width: auto;
 }
 
 .card-body{

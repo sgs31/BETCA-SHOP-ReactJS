@@ -1,0 +1,83 @@
+.nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: url("../../../assets/navback.jpg");
+  background-repeat: no-repeat;
+  height: 100px;
+  padding: 0 10px 0 10px;
+}
+
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  text-justify: center;
+}
+
+.logo img {
+  height: 80px;
+}
+
+.search {
+  width: 600px;
+}
+
+.search input {
+  width: 100%;
+  height: 30px;
+  border: 0;
+  border-radius: 10px;
+}
+
+.search input:focus {
+  outline: none;
+}
+
+.navrightside {
+  display: flex;
+  align-items: center;
+}
+
+.navrightside a {
+  text-decoration: none;
+  color: #f15bb5;
+  font-size: 13px;
+}
+
+.navrightside button {
+  text-decoration: none;
+  background: none;
+  border-radius: 5px;
+  color: #f15bb5;
+  border: 0.5px solid #f15bb5;
+  padding: 5px;
+  margin: 5px;
+  margin-right: 10px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.navrightside button:hover {
+  border: 1px solid #fee440;
+  color: #fee440;
+  transition: 300ms;
+}
+
+.session {
+  display: flex;
+  flex-direction: column;
+}
+
+.session a:hover {
+  color: #fee440;
+  transition: 300ms;
+}
+
+.windows-login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 300px;
+}

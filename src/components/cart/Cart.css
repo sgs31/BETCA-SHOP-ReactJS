@@ -1,0 +1,15 @@
+.cart-empty {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.cart-empty img {
+  width: 300px;
+}
+
+.cart-empty a {
+  text-decoration: none;
+  font-size: 30px;
+  color: #00bbf9;
+}
